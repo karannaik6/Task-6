@@ -1,0 +1,45 @@
+/* src/components/ImageModal.css */
+.image-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  .modal-content {
+    max-width: 80%;
+    max-height: 80%;
+  }
+  .close, .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    color: white;
+    font-size: 40px;
+    user-select: none;
+    transform: translateY(-50%);
+  }
+  .close {
+    top: 10%;
+    right: 10%;
+  }
+  .prev {
+    left: 10%;
+  }
+  .next {
+    right: 10%;
+  }
+  .caption {
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+  

@@ -1,0 +1,21 @@
+/* src/components/ImageItem.css */
+.image-item {
+    flex: 1 1 calc(25% - 10px);
+    cursor: pointer;
+  }
+  .image-item img {
+    width: 100%;
+    height: auto;
+  }
+  /* src/components/ImageItem.css */
+.image-item {
+  flex: 1 1 calc(25% - 10px);
+  cursor: pointer;
+}
+
+.image-item img {
+  width: 100%;
+  height:max-content;
+  border: 3px solid rgb(229, 174, 174); /* Add this line for a black border */
+  object-fit: cover;
+}
